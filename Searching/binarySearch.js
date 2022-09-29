@@ -1,3 +1,6 @@
+//Time complexity - O(nlogn)
+//Space complexity - O(1)
+
 const binarySearch = function(arr, el){
     arr.sort((a,b) => a-b);
     console.log(arr);
