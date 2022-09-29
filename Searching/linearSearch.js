@@ -1,6 +1,6 @@
 //Time complexity - O(n)
 //Space complexity - O(1)
-function linearSearch(arr, el){
+const linearSearch = function(arr, el){
     for(let i=0;i<arr.length;i++){
         if(arr[i] === el){
             return true;
